@@ -4,16 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link rel ="stylesheet" href = "stylet.css">
 </head>
 <body>
-    <h1>To Do List</h1>
-    <input placeholder="Enter your tasks" id="click">
-    <button id="click">Add Task</button>
-    <ul>
-        <li>Eat<button class = "delete">delete</button></li>
-        <li>Sleep<button class = "delete">delete</button></li>
-        <li>Code<button class = "delete">delete</button></li>
-    </ul>
+    <div class="main">
+        <h1><b>TO DO LIST</b></h1>
+        <br>
+        <div class="input-container">
+            <input type="text" required id="click">
+            <div id="click" class="l">Enter your tasks</div> 
+            <button class="b">Add Task</button> 
+        </div>
+        <br>
+        <ul>
+            <li>Eat<button class="delete">delete</button></li>
+            <li>Sleep<button class="delete">delete</button></li>
+            <li>Code<button class="delete">delete</button></li>
+        </ul>
+    </div>
+    
     <script src = "scriptT.js"></script>
 </body>
 </html>
